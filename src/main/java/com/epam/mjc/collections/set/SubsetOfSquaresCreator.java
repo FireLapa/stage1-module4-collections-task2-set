@@ -7,6 +7,7 @@ import java.util.TreeSet;
 
 public class SubsetOfSquaresCreator {
     public Set<Integer> createSubsetOfSquares(List<Integer> sourceList, int lowerBound, int upperBound) {
+
         TreeSet<Integer> squareSet = new TreeSet<>();
 
         for (int num : sourceList) {

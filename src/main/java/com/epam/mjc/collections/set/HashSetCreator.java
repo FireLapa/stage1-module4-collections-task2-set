@@ -5,7 +5,9 @@ import java.util.List;
 
 public class HashSetCreator {
     public HashSet<Integer> createHashSet(List<Integer> sourceList) {
+
         HashSet<Integer> hashSet = new HashSet<>();
+
         for (int x : sourceList) {
             hashSet.add(x);
 
@@ -20,6 +22,7 @@ public class HashSetCreator {
                 hashSet.add(2 * x);
             }
         }
+
         return hashSet;
     }
 }
